@@ -17,3 +17,8 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    db_driver:         pdo_mysql
+
+    sonata_admin.title:         ~
+    sonata_admin.logo_title:    ~

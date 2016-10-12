@@ -1,0 +1,6 @@
+sonata_dashboard:
+    default_container: sonata.dashboard.block.container
+    # Entity Classes
+    class:
+        dashboard: Application\Sonata\DashboardBundle\Entity\Dashboard
+        block:     Application\Sonata\DashboardBundle\Entity\Block

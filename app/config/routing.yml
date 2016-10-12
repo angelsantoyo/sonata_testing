@@ -1,3 +1,11 @@
-app:
-    resource: "@AppBundle/Controller/"
+wms_backend:
+    resource: "@WMSBackendBundle/Controller/"
     type:     annotation
+    prefix:   /
+
+_front:
+    resource: routing/front.yml
+
+_admin:
+    resource: routing/admin.yml
+    prefix:   /admin
