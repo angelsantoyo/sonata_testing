@@ -9,6 +9,9 @@ A Symfony project created on October 12, 2016, 10:18 am.
 $ composer install
 
 $ php app/console doctrine:schema:create
+
+$ php bin/console assets:install
+
 ```
 
 Update acl controls
