@@ -4,8 +4,8 @@ imports:
     # - { resource: sonata/sonata_user.yml }
     - { resource: sonata/sonata_admin.yml }
     # - { resource: sonata/sonata_cache.yml }
-    # - { resource: sonata/sonata_notification.yml }
-    # - { resource: sonata/sonata_dashboard.yml }
+    - { resource: sonata/sonata_notification.yml }
+    - { resource: sonata/sonata_dashboard.yml }
     # - { resource: sonata/sonata_core.yml }
     - { resource: fos/fos_rest.yml}
     - { resource: fos/fos_user.yml }

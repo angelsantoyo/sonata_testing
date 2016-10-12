@@ -22,7 +22,7 @@ sonata_cache_cache:
     prefix: /
 
 app:
-    resource: "@GaiaBackendBundle/Controller"
+    resource: "@WMSBackendBundle/Controller"
     type:     annotation
     prefix:   /
 
@@ -31,5 +31,5 @@ root:
     path: /
     defaults:
         _controller: FrameworkBundle:Redirect:urlRedirect
-        path: /admin
+        path: /backend
         permanent: true
